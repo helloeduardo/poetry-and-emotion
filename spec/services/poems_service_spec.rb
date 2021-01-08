@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PoemsService do
+RSpec.describe PoemsService, :vcr do
   describe "class methods" do
     it "#get_poems(author)" do
       results = PoemsService.get_poems("Emily")

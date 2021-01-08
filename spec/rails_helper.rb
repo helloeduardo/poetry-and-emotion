@@ -1,5 +1,7 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
+require 'webmock/rspec'
+
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 # Prevent database truncation if the environment is production
@@ -62,3 +64,12 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 end
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  config.hook_into :webmock
+  config.configure_rspec_metadata!
+  config.filter_sensitive_data('<DONT_EXPOSE_MY_DATA_PLEASE>') { ENV['MOVIE_DB_API_KEY'] }
+  config.default_cassette_options = { re_record_interval: 30.days }
+  config.allow_http_connections_when_no_cassette = true
+end 

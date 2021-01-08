@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=Team,%20I%20know%20that%20times%20are%20tough!%20Product%20sales%20have%20been%20disappointing%20for%20the%20past%20three%20quarters.%20We%20have%20a%20competitive%20product,%20but%20we%20need%20to%20do%20a%20better%20job%20of%20selling%20it!&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '726'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 653c9d7e-a5e5-4713-8536-e49a42503368
+      X-Request-Id:
+      - 653c9d7e-a5e5-4713-8536-e49a42503368
+      X-Global-Transaction-Id:
+      - 653c9d7e-a5e5-4713-8536-e49a42503368
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '53'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '226'
+      Date:
+      - Fri, 08 Jan 2021 17:49:58 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.6165,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.829888,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"Team,
+        I know that times are tough!","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"Product
+        sales have been disappointing for the past three quarters.","tones":[{"score":0.771241,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"We
+        have a competitive product, but we need to do a better job of selling it!","tones":[{"score":0.506763,"tone_id":"analytical","tone_name":"Analytical"}]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:58 GMT
+recorded_with: VCR 6.0.0

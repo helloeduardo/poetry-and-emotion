@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe PoemsFacade do
+describe PoemsFacade, :vcr do
   it 'returns poems for an author' do
     poems = PoemsFacade.poems_for("Emily")
 

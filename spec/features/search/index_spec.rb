@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Search Index Page" do
+RSpec.describe "Search Index Page", :vcr do
   it "I see a list of the first 10 poems after filling out the welcome page form" do
     visit '/'
 

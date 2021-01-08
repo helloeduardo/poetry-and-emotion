@@ -1,0 +1,1192 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://poetrydb.org/author,poemcount/Emily;10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 08 Jan 2021 17:49:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d536df9db2b3bdd6234b6c64f1b4919fb1610128192; expires=Sun, 07-Feb-21
+        17:49:52 GMT; path=/; domain=.poetrydb.org; HttpOnly; SameSite=Lax; Secure
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '0784b78c650000034710082000000001'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=jYCUbm2RguCSNvFECnioc%2BzbSn%2FAo1ZIGHwboQXn%2BXNOOVzcQyEU8lxAXeSUXWXYmKhnRta5JMlgw18azOY9ugum3PZrxhF9CjysWTAUik5vT8T1jBwpHu0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 60e7c1f3dde70347-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        [
+          {
+            "title": "Not at Home to Callers",
+            "author": "Emily Dickinson",
+            "lines": [
+              "Not at Home to Callers",
+              "Says the Naked Tree --",
+              "Bonnet due in April --",
+              "Wishing you Good Day --"
+            ],
+            "linecount": "4"
+          },
+          {
+            "title": "Defrauded I a Butterfly --",
+            "author": "Emily Dickinson",
+            "lines": [
+              "Defrauded I a Butterfly --",
+              "The lawful Heir -- for Thee --"
+            ],
+            "linecount": "2"
+          },
+          {
+            "title": "The words the happy say",
+            "author": "Emily Dickinson",
+            "lines": [
+              "The words the happy say",
+              "Are paltry melody",
+              "But those the silent feel",
+              "Are beautiful --"
+            ],
+            "linecount": "4"
+          },
+          {
+            "title": "Death",
+            "author": "Emily Bronte",
+            "lines": [
+              "Death! that struck when I was most confiding",
+              "In my certain faith of joy to be -",
+              "Strike again, Time's withered branch dividing",
+              "From the fresh root of Eternity!",
+              "",
+              "Leaves, upon Time's branch, were growing brightly,",
+              "Full of sap, and full of silver dew;",
+              "Birds beneath its shelter gathered nightly;",
+              "Daily round its flowers the wild bees flew.",
+              "",
+              "Sorrow passed, and plucked the golden blossom;",
+              "Guilt stripped off the foliage in its pride;",
+              "But, within its parent's kindly bosom,",
+              "Flowed for ever Life's restoring-tide.",
+              "",
+              "Little mourned I for the parted gladness,",
+              "For the vacant nest and silent song -",
+              "Hope was there, and laughed me out of sadness;",
+              "Whispering, \" Winter will not linger long!\"",
+              "",
+              "And, behold! with tenfold increase blessing,",
+              "Spring adorned the beauty-burdened spray;",
+              "Wind and rain and fervent heat, caressing,",
+              "Lavished glory on that second May!",
+              "",
+              "High it rose - no winged grief could sweep it;",
+              "Sin was scared to distance with its shine;",
+              "Love, and its own life, had power to keep it",
+              "From all wrong - from every blight but thine!",
+              "",
+              "Cruel Death! The young leaves droop and languish;",
+              "Evening's gentle air may still restore -",
+              "No! the morning sunshine mocks my anguish -",
+              "Time, for me, must never blossom more!",
+              "",
+              "Strike it down, that other boughs may flourish",
+              "Where that perished sapling used to be;",
+              "Thus, at least, its mouldering corpse will nourish",
+              "That from which it sprung - Eternity."
+            ],
+            "linecount": "32"
+          },
+          {
+            "title": "Faith and Despondency",
+            "author": "Emily Bronte",
+            "lines": [
+              "The winter wind is loud and wild,",
+              "Come close to me, my darling child;",
+              "Forsake thy books, and mateless play;",
+              "And, while the night is gathering grey,",
+              "We'll talk its pensive hours away;--",
+              "",
+              "'Ierne, round our sheltered hall",
+              "November's gusts unheeded call;",
+              "Not one faint breath can enter here",
+              "Enough to wave my daughter's hair,",
+              "And I am glad to watch the blaze",
+              "Glance from her eyes, with mimic rays;",
+              "To feel her cheek so softly pressed,",
+              "In happy quiet on my breast.",
+              "",
+              "'But, yet, even this tranquillity",
+              "Brings bitter, restless thoughts to me;",
+              "And, in the red fire's cheerful glow,",
+              "I think of deep glens, blocked with snow;",
+              "I dream of moor, and misty hill,",
+              "Where evening closes dark and chill;",
+              "For, lone, among the mountains cold,",
+              "Lie those that I have loved of old.",
+              "And my heart aches, in hopeless pain",
+              "Exhausted with repinings vain,",
+              "That I shall greet them ne'er again!'",
+              "",
+              "'Father, in early infancy,",
+              "When you were far beyond the sea,",
+              "Such thoughts were tyrants over me!",
+              "I often sat, for hours together,",
+              "Through the long nights of angry weather,",
+              "Raised on my pillow, to descry",
+              "The dim moon struggling in the sky;",
+              "",
+              "Or, with strained ear, to catch the shock,",
+              "Of rock with wave, and wave with rock;",
+              "So would I fearful vigil keep,",
+              "And, all for listening, never sleep.",
+              "But this world's life has much to dread,",
+              "Not so, my Father, with the dead.",
+              "",
+              "'Oh! not for them, should we despair,",
+              "The grave is drear, but they are not there;",
+              "Their dust is mingled with the sod,",
+              "Their happy souls are gone to God!",
+              "You told me this, and yet you sigh,",
+              "And murmur that your friends must die.",
+              "Ah! my dear father, tell me why?",
+              "",
+              "For, if your former words were true,",
+              "How useless would such sorrow be;",
+              "As wise, to mourn the seed which grew",
+              "Unnoticed on its parent tree,",
+              "Because it fell in fertile earth,",
+              "And sprang up to a glorious birth--",
+              "Struck deep its root, and lifted high",
+              "Its green boughs, in the breezy sky.",
+              "",
+              "'But, I'll not fear, I will not weep",
+              "For those whose bodies rest in sleep,--",
+              "I know there is a blessed shore,",
+              "Opening its ports for me, and mine;",
+              "And, gazing Time's wide waters o'er,",
+              "I weary for that land divine,",
+              "Where we were born, where you and I",
+              "Shall meet our Dearest, when we die;",
+              "From suffering and corruption free,",
+              "Restored into the Deity.'",
+              "",
+              "'Well hast thou spoken, sweet, trustful child!",
+              "And wiser than thy sire;",
+              "And worldly tempests, raging wild,",
+              "Shall strengthen thy desire--",
+              "Thy fervent hope, through storm and foam,",
+              "Through wind and ocean's roar,",
+              "To reach, at last, the eternal home,",
+              "The steadfast, changeless, shore!'"
+            ],
+            "linecount": "70"
+          },
+          {
+            "title": "The Night is Darkening Around Me",
+            "author": "Emily Bronte",
+            "lines": [
+              "The night is darkening round me,",
+              "The wild winds coldly blow ;",
+              "But a tyrant spell has bound me,",
+              "And I cannot, cannot go.",
+              "",
+              "The giant trees are bending",
+              "Their bare boughs weighed with snow ;",
+              "The storm is fast descending,",
+              "And yet I cannot go.",
+              "",
+              "Clouds beyond clouds above me,",
+              "Wastes beyond wastes below ;",
+              "But nothing drear can move me :",
+              "I will not, cannot go."
+            ],
+            "linecount": "12"
+          },
+          {
+            "title": "Night is Darkening Around Me, The",
+            "author": "Emily Bronte",
+            "lines": [
+              "The night is darkening round me,",
+              "The wild winds coldly blow ;",
+              "But a tyrant spell has bound me,",
+              "And I cannot, cannot go.",
+              "",
+              "The giant trees are bending",
+              "Their bare boughs weighed with snow ;",
+              "The storm is fast descending,",
+              "And yet I cannot go.",
+              "",
+              "Clouds beyond clouds above me,",
+              "Wastes beyond wastes below ;",
+              "But nothing drear can move me :",
+              "I will not, cannot go."
+            ],
+            "linecount": "12"
+          },
+          {
+            "title": "A Day Dream",
+            "author": "Emily Bronte",
+            "lines": [
+              "On a sunny brae, alone I lay",
+              "One summer afternoon;",
+              "It was the marriage-time of May",
+              "With her young lover, June.",
+              "",
+              "From her mother's heart, seemed loath to part",
+              "That queen of bridal charms,",
+              "But her father smiled on the fairest child",
+              "He ever held in his arms.",
+              "",
+              "The trees did wave their plumy crests,",
+              "The glad birds caroled clear;",
+              "And I, of all the wedding guests,",
+              "Was only sullen there!",
+              "",
+              "There was not one, but wished to shun",
+              "My aspect void of cheer;",
+              "The very grey rocks, looking on,",
+              "Asked, \"What do you here?\"",
+              "",
+              "And I could utter no reply;",
+              "In sooth, I did not know",
+              "Why I had brought a clouded eye",
+              "To greet the general glow.",
+              "",
+              "So, resting on a heathy bank,",
+              "I took my heart to me;",
+              "And we together sadly sank",
+              "Into a reverie.",
+              "",
+              "We thought, \"When winter comes again,",
+              "Where will these bright things be?",
+              "All vanished, like a vision vain,",
+              "An unreal mockery!",
+              "",
+              "The birds that now so blithely sing,",
+              "Through deserts, frozen dry,",
+              "Poor spectres of the perished spring,",
+              "In famished troops, will fly.",
+              "",
+              "And why should we be glad at all?",
+              "The leaf is hardly green,",
+              "Before a token of its fall",
+              "Is on the surface seen!\"",
+              "",
+              "Now, whether it were really so,",
+              "I never could be sure;",
+              "But as in fit of peevish woe,",
+              "I stretched me on the moor.",
+              "",
+              "A thousand thousand gleaming fires",
+              "Seemed kindling in the air;",
+              "A thousand thousand silvery lyres",
+              "Resounded far and near:",
+              "",
+              "Methought, the very breath I breathed",
+              "Was full of sparks divine,",
+              "And all my heather-couch was wreathed",
+              "By that celestial shine!",
+              "",
+              "And, while the wide earth echoing rung",
+              "To their strange minstrelsy,",
+              "The little glittering spirits sung,",
+              "Or seemed to sing, to me.",
+              "",
+              "\"O mortal! mortal! let them die;",
+              "Let time and tears destroy,",
+              "That we may overflow the sky",
+              "With universal joy!",
+              "",
+              "Let grief distract the sufferer's breast,",
+              "And night obscure his way;",
+              "They hasten him to endless rest,",
+              "And everlasting day.",
+              "",
+              "To thee the world is like a tomb,",
+              "A desert's naked shore;",
+              "To us, in unimagined bloom,",
+              "It brightens more and more!",
+              "",
+              "And could we lift the veil, and give",
+              "One brief glimpse to thine eye,",
+              "Thou wouldst rejoice for those that live,",
+              "Because they live to die.\"",
+              "",
+              "The music ceased; the noonday dream,",
+              "Like dream of night, withdrew;",
+              "But Fancy, still, will sometimes deem",
+              "Her fond creation true."
+            ],
+            "linecount": "72"
+          },
+          {
+            "title": "Hope",
+            "author": "Emily Bronte",
+            "lines": [
+              "Hope was but a timid friend;",
+              "She sat without the grated den,",
+              "Watching how my fate would tend,",
+              "Even as selfish-hearted men.",
+              "",
+              "She was cruel in her fear;",
+              "Through the bars, one dreary day,",
+              "I looked out to see her there,",
+              "And she turned her face away!",
+              "",
+              "Like a false guard, false watch keeping,",
+              "Still, in strife, she whispered peace;",
+              "She would sing while I was weeping;",
+              "If I listened, she would cease.",
+              "",
+              "False she was, and unrelenting;",
+              "When my last joys strewed the ground,",
+              "Even Sorrow saw, repenting,",
+              "Those sad relics scattered round;",
+              "",
+              "Hope, whose whisper would have given",
+              "Balm to all my frenzied pain,",
+              "Stretched her wings, and soared to heaven,",
+              "Went, and ne'er returned again!"
+            ],
+            "linecount": "20"
+          },
+          {
+            "title": "'Tis moonlight, summer moonlight",
+            "author": "Emily Bronte",
+            "lines": [
+              "'Tis moonlight, summer moonlight,",
+              "All soft and still and fair;",
+              "The solemn hour of midnight",
+              "Breathes sweet thoughts everywhere,",
+              "",
+              "But most where trees are sending",
+              "Their breezy boughs on high,",
+              "Or stooping low are lending",
+              "A shelter from the sky.",
+              "",
+              "And there in those wild bowers",
+              "A lovely form is laid;",
+              "Green grass and dew-steeped flowers",
+              "Wave gently round her head."
+            ],
+            "linecount": "12"
+          }
+        ]
+  recorded_at: Fri, 08 Jan 2021 17:49:52 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=Not%20at%20Home%20to%20Callers%20Says%20the%20Naked%20Tree%20--%20Bonnet%20due%20in%20April%20--%20Wishing%20you%20Good%20Day%20--&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '82'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - a7ecc4de-e1b4-4639-b133-8b447a26b6c2
+      X-Request-Id:
+      - a7ecc4de-e1b4-4639-b133-8b447a26b6c2
+      X-Global-Transaction-Id:
+      - a7ecc4de-e1b4-4639-b133-8b447a26b6c2
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '46'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '237'
+      Date:
+      - Fri, 08 Jan 2021 17:49:53 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.730959,"tone_id":"joy","tone_name":"Joy"}]}}'
+  recorded_at: Fri, 08 Jan 2021 17:49:53 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=Defrauded%20I%20a%20Butterfly%20--%20The%20lawful%20Heir%20--%20for%20Thee%20--&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '81'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 0affc55e-17bf-443c-8584-c9eef60d12d1
+      X-Request-Id:
+      - 0affc55e-17bf-443c-8584-c9eef60d12d1
+      X-Global-Transaction-Id:
+      - 0affc55e-17bf-443c-8584-c9eef60d12d1
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '49'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '186'
+      Date:
+      - Fri, 08 Jan 2021 17:49:53 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.50436,"tone_id":"joy","tone_name":"Joy"}]}}'
+  recorded_at: Fri, 08 Jan 2021 17:49:53 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=The%20words%20the%20happy%20say%20Are%20paltry%20melody%20But%20those%20the%20silent%20feel%20Are%20beautiful%20--&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '82'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - f571abe9-49d4-4477-ba51-8eee72c1304e
+      X-Request-Id:
+      - f571abe9-49d4-4477-ba51-8eee72c1304e
+      X-Global-Transaction-Id:
+      - f571abe9-49d4-4477-ba51-8eee72c1304e
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '44'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '227'
+      Date:
+      - Fri, 08 Jan 2021 17:49:53 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.822597,"tone_id":"joy","tone_name":"Joy"}]}}'
+  recorded_at: Fri, 08 Jan 2021 17:49:53 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=Death!%20that%20struck%20when%20I%20was%20most%20confiding%20In%20my%20certain%20faith%20of%20joy%20to%20be%20-%20Strike%20again,%20Time%27s%20withered%20branch%20dividing%20From%20the%20fresh%20root%20of%20Eternity!%20%20Leaves,%20upon%20Time%27s%20branch,%20were%20growing%20brightly,%20Full%20of%20sap,%20and%20full%20of%20silver%20dew%3B%20Birds%20beneath%20its%20shelter%20gathered%20nightly%3B%20Daily%20round%20its%20flowers%20the%20wild%20bees%20flew.%20%20Sorrow%20passed,%20and%20plucked%20the%20golden%20blossom%3B%20Guilt%20stripped%20off%20the%20foliage%20in%20its%20pride%3B%20But,%20within%20its%20parent%27s%20kindly%20bosom,%20Flowed%20for%20ever%20Life%27s%20restoring-tide.%20%20Little%20mourned%20I%20for%20the%20parted%20gladness,%20For%20the%20vacant%20nest%20and%20silent%20song%20-%20Hope%20was%20there,%20and%20laughed%20me%20out%20of%20sadness%3B%20Whispering,%20%22%20Winter%20will%20not%20linger%20long!%22%20%20And,%20behold!%20with%20tenfold%20increase%20blessing,%20Spring%20adorned%20the%20beauty-burdened%20spray%3B%20Wind%20and%20rain%20and%20fervent%20heat,%20caressing,%20Lavished%20glory%20on%20that%20second%20May!%20%20High%20it%20rose%20-%20no%20winged%20grief%20could%20sweep%20it%3B%20Sin%20was%20scared%20to%20distance%20with%20its%20shine%3B%20Love,%20and%20its%20own%20life,%20had%20power%20to%20keep%20it%20From%20all%20wrong%20-%20from%20every%20blight%20but%20thine!%20%20Cruel%20Death!%20The%20young%20leaves%20droop%20and%20languish%3B%20Evening%27s%20gentle%20air%20may%20still%20restore%20-%20No!%20the%20morning%20sunshine%20mocks%20my%20anguish%20-%20Time,%20for%20me,%20must%20never%20blossom%20more!%20%20Strike%20it%20down,%20that%20other%20boughs%20may%20flourish%20Where%20that%20perished%20sapling%20used%20to%20be%3B%20Thus,%20at%20least,%20its%20mouldering%20corpse%20will%20nourish%20That%20from%20which%20it%20sprung%20-%20Eternity.&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '2249'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 388c6090-1b4c-4cf8-a5cf-952f567bf1dc
+      X-Request-Id:
+      - 388c6090-1b4c-4cf8-a5cf-952f567bf1dc
+      X-Global-Transaction-Id:
+      - 388c6090-1b4c-4cf8-a5cf-952f567bf1dc
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '44'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '355'
+      Date:
+      - Fri, 08 Jan 2021 17:49:54 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.644918,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.678689,"tone_id":"anger","tone_name":"Anger"},{"score":0.651057,"tone_id":"joy","tone_name":"Joy"},{"score":0.631807,"tone_id":"fear","tone_name":"Fear"}]},"sentences_tone":[{"sentence_id":0,"text":"Death!
+        that struck when I was most confiding In my certain faith of joy to be - Strike
+        again, Time''s withered branch dividing From the fresh root of Eternity!","tones":[{"score":0.763421,"tone_id":"joy","tone_name":"Joy"},{"score":0.645985,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":1,"text":"Leaves,
+        upon Time''s branch, were growing brightly, Full of sap, and full of silver
+        dew; Birds beneath its shelter gathered nightly; Daily round its flowers the
+        wild bees flew.","tones":[{"score":0.618942,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":2,"text":"Sorrow
+        passed, and plucked the golden blossom; Guilt stripped off the foliage in
+        its pride; But, within its parent''s kindly bosom, Flowed for ever Life''s
+        restoring-tide.","tones":[]},{"sentence_id":3,"text":"Little mourned I for
+        the parted gladness, For the vacant nest and silent song - Hope was there,
+        and laughed me out of sadness; Whispering, \" Winter will not linger long!\"  And,
+        behold! with tenfold increase blessing, Spring adorned the beauty-burdened
+        spray; Wind and rain and fervent heat, caressing, Lavished glory on that second
+        May!  High it rose - no winged grief could sweep it; Sin was scared to distance
+        with its shine; Love, and its own life, had power to keep it From all wrong
+        - from every blight but thine!","tones":[{"score":0.602563,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":4,"text":"Cruel
+        Death!","tones":[{"score":0.724127,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":5,"text":"The
+        young leaves droop and languish; Evening''s gentle air may still restore -
+        No! the morning sunshine mocks my anguish - Time, for me, must never blossom
+        more!","tones":[{"score":0.754973,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":6,"text":"Strike
+        it down, that other boughs may flourish Where that perished sapling used to
+        be; Thus, at least, its mouldering corpse will nourish That from which it
+        sprung - Eternity.","tones":[]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:54 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=The%20winter%20wind%20is%20loud%20and%20wild,%20Come%20close%20to%20me,%20my%20darling%20child%3B%20Forsake%20thy%20books,%20and%20mateless%20play%3B%20And,%20while%20the%20night%20is%20gathering%20grey,%20We%27ll%20talk%20its%20pensive%20hours%20away%3B--%20%20%27Ierne,%20round%20our%20sheltered%20hall%20November%27s%20gusts%20unheeded%20call%3B%20Not%20one%20faint%20breath%20can%20enter%20here%20Enough%20to%20wave%20my%20daughter%27s%20hair,%20And%20I%20am%20glad%20to%20watch%20the%20blaze%20Glance%20from%20her%20eyes,%20with%20mimic%20rays%3B%20To%20feel%20her%20cheek%20so%20softly%20pressed,%20In%20happy%20quiet%20on%20my%20breast.%20%20%27But,%20yet,%20even%20this%20tranquillity%20Brings%20bitter,%20restless%20thoughts%20to%20me%3B%20And,%20in%20the%20red%20fire%27s%20cheerful%20glow,%20I%20think%20of%20deep%20glens,%20blocked%20with%20snow%3B%20I%20dream%20of%20moor,%20and%20misty%20hill,%20Where%20evening%20closes%20dark%20and%20chill%3B%20For,%20lone,%20among%20the%20mountains%20cold,%20Lie%20those%20that%20I%20have%20loved%20of%20old.%20And%20my%20heart%20aches,%20in%20hopeless%20pain%20Exhausted%20with%20repinings%20vain,%20That%20I%20shall%20greet%20them%20ne%27er%20again!%27%20%20%27Father,%20in%20early%20infancy,%20When%20you%20were%20far%20beyond%20the%20sea,%20Such%20thoughts%20were%20tyrants%20over%20me!%20I%20often%20sat,%20for%20hours%20together,%20Through%20the%20long%20nights%20of%20angry%20weather,%20Raised%20on%20my%20pillow,%20to%20descry%20The%20dim%20moon%20struggling%20in%20the%20sky%3B%20%20Or,%20with%20strained%20ear,%20to%20catch%20the%20shock,%20Of%20rock%20with%20wave,%20and%20wave%20with%20rock%3B%20So%20would%20I%20fearful%20vigil%20keep,%20And,%20all%20for%20listening,%20never%20sleep.%20But%20this%20world%27s%20life%20has%20much%20to%20dread,%20Not%20so,%20my%20Father,%20with%20the%20dead.%20%20%27Oh!%20not%20for%20them,%20should%20we%20despair,%20The%20grave%20is%20drear,%20but%20they%20are%20not%20there%3B%20Their%20dust%20is%20mingled%20with%20the%20sod,%20Their%20happy%20souls%20are%20gone%20to%20God!%20You%20told%20me%20this,%20and%20yet%20you%20sigh,%20And%20murmur%20that%20your%20friends%20must%20die.%20Ah!%20my%20dear%20father,%20tell%20me%20why?%20%20For,%20if%20your%20former%20words%20were%20true,%20How%20useless%20would%20such%20sorrow%20be%3B%20As%20wise,%20to%20mourn%20the%20seed%20which%20grew%20Unnoticed%20on%20its%20parent%20tree,%20Because%20it%20fell%20in%20fertile%20earth,%20And%20sprang%20up%20to%20a%20glorious%20birth--%20Struck%20deep%20its%20root,%20and%20lifted%20high%20Its%20green%20boughs,%20in%20the%20breezy%20sky.%20%20%27But,%20I%27ll%20not%20fear,%20I%20will%20not%20weep%20For%20those%20whose%20bodies%20rest%20in%20sleep,--%20I%20know%20there%20is%20a%20blessed%20shore,%20Opening%20its%20ports%20for%20me,%20and%20mine%3B%20And,%20gazing%20Time%27s%20wide%20waters%20o%27er,%20I%20weary%20for%20that%20land%20divine,%20Where%20we%20were%20born,%20where%20you%20and%20I%20Shall%20meet%20our%20Dearest,%20when%20we%20die%3B%20From%20suffering%20and%20corruption%20free,%20Restored%20into%20the%20Deity.%27%20%20%27Well%20hast%20thou%20spoken,%20sweet,%20trustful%20child!%20And%20wiser%20than%20thy%20sire%3B%20And%20worldly%20tempests,%20raging%20wild,%20Shall%20strengthen%20thy%20desire--%20Thy%20fervent%20hope,%20through%20storm%20and%20foam,%20Through%20wind%20and%20ocean%27s%20roar,%20To%20reach,%20at%20last,%20the%20eternal%20home,%20The%20steadfast,%20changeless,%20shore!%27&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '3850'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - d4da0df1-36c8-4b58-a1f8-b5fa992794e3
+      X-Request-Id:
+      - d4da0df1-36c8-4b58-a1f8-b5fa992794e3
+      X-Global-Transaction-Id:
+      - d4da0df1-36c8-4b58-a1f8-b5fa992794e3
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '46'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '460'
+      Date:
+      - Fri, 08 Jan 2021 17:49:55 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.56908,"tone_id":"joy","tone_name":"Joy"},{"score":0.61563,"tone_id":"sadness","tone_name":"Sadness"}]},"sentences_tone":[{"sentence_id":0,"text":"The
+        winter wind is loud and wild, Come close to me, my darling child; Forsake
+        thy books, and mateless play; And, while the night is gathering grey, We''ll
+        talk its pensive hours away;--  ''Ierne, round our sheltered hall November''s
+        gusts unheeded call; Not one faint breath can enter here Enough to wave my
+        daughter''s hair, And I am glad to watch the blaze Glance from her eyes, with
+        mimic rays; To feel her cheek so softly pressed, In happy quiet on my breast.","tones":[{"score":0.716037,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":1,"text":"''But,
+        yet, even this tranquillity Brings bitter, restless thoughts to me; And, in
+        the red fire''s cheerful glow, I think of deep glens, blocked with snow; I
+        dream of moor, and misty hill, Where evening closes dark and chill; For, lone,
+        among the mountains cold, Lie those that I have loved of old.","tones":[{"score":0.716673,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"And
+        my heart aches, in hopeless pain Exhausted with repinings vain, That I shall
+        greet them ne''er again!''  ''Father, in early infancy, When you were far
+        beyond the sea, Such thoughts were tyrants over me!","tones":[{"score":0.773625,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":3,"text":"I
+        often sat, for hours together, Through the long nights of angry weather, Raised
+        on my pillow, to descry The dim moon struggling in the sky;  Or, with strained
+        ear, to catch the shock, Of rock with wave, and wave with rock; So would I
+        fearful vigil keep, And, all for listening, never sleep.","tones":[]},{"sentence_id":4,"text":"But
+        this world''s life has much to dread, Not so, my Father, with the dead.","tones":[{"score":0.601459,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":5,"text":"''Oh!
+        not for them, should we despair, The grave is drear, but they are not there;
+        Their dust is mingled with the sod, Their happy souls are gone to God!","tones":[{"score":0.638751,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":6,"text":"You
+        told me this, and yet you sigh, And murmur that your friends must die.","tones":[{"score":0.77499,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.711887,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"Ah!
+        my dear father, tell me why?","tones":[{"score":0.588094,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":8,"text":"For,
+        if your former words were true, How useless would such sorrow be; As wise,
+        to mourn the seed which grew Unnoticed on its parent tree, Because it fell
+        in fertile earth, And sprang up to a glorious birth-- Struck deep its root,
+        and lifted high Its green boughs, in the breezy sky.","tones":[{"score":0.526646,"tone_id":"joy","tone_name":"Joy"},{"score":0.523065,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"''But,
+        I''ll not fear, I will not weep For those whose bodies rest in sleep,-- I
+        know there is a blessed shore, Opening its ports for me, and mine; And, gazing
+        Time''s wide waters o''er, I weary for that land divine, Where we were born,
+        where you and I Shall meet our Dearest, when we die; From suffering and corruption
+        free, Restored into the Deity.''  ''Well hast thou spoken, sweet, trustful
+        child!","tones":[{"score":0.501326,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":10,"text":"And
+        wiser than thy sire; And worldly tempests, raging wild, Shall strengthen thy
+        desire-- Thy fervent hope, through storm and foam, Through wind and ocean''s
+        roar, To reach, at last, the eternal home, The steadfast, changeless, shore!''","tones":[{"score":0.671896,"tone_id":"joy","tone_name":"Joy"},{"score":0.607238,"tone_id":"analytical","tone_name":"Analytical"}]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:55 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=The%20night%20is%20darkening%20round%20me,%20The%20wild%20winds%20coldly%20blow%20%3B%20But%20a%20tyrant%20spell%20has%20bound%20me,%20And%20I%20cannot,%20cannot%20go.%20%20The%20giant%20trees%20are%20bending%20Their%20bare%20boughs%20weighed%20with%20snow%20%3B%20The%20storm%20is%20fast%20descending,%20And%20yet%20I%20cannot%20go.%20%20Clouds%20beyond%20clouds%20above%20me,%20Wastes%20beyond%20wastes%20below%20%3B%20But%20nothing%20drear%20can%20move%20me%20:%20I%20will%20not,%20cannot%20go.&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '647'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - e29c00c2-e875-4d53-b64b-7f4f4e3cd7e7
+      X-Request-Id:
+      - e29c00c2-e875-4d53-b64b-7f4f4e3cd7e7
+      X-Global-Transaction-Id:
+      - e29c00c2-e875-4d53-b64b-7f4f4e3cd7e7
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '49'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '267'
+      Date:
+      - Fri, 08 Jan 2021 17:49:55 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.596122,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"The
+        night is darkening round me, The wild winds coldly blow ; But a tyrant spell
+        has bound me, And I cannot, cannot go.","tones":[]},{"sentence_id":1,"text":"The
+        giant trees are bending Their bare boughs weighed with snow ; The storm is
+        fast descending, And yet I cannot go.","tones":[{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"Clouds
+        beyond clouds above me, Wastes beyond wastes below ; But nothing drear can
+        move me : I will not, cannot go.","tones":[]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:55 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=The%20night%20is%20darkening%20round%20me,%20The%20wild%20winds%20coldly%20blow%20%3B%20But%20a%20tyrant%20spell%20has%20bound%20me,%20And%20I%20cannot,%20cannot%20go.%20%20The%20giant%20trees%20are%20bending%20Their%20bare%20boughs%20weighed%20with%20snow%20%3B%20The%20storm%20is%20fast%20descending,%20And%20yet%20I%20cannot%20go.%20%20Clouds%20beyond%20clouds%20above%20me,%20Wastes%20beyond%20wastes%20below%20%3B%20But%20nothing%20drear%20can%20move%20me%20:%20I%20will%20not,%20cannot%20go.&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '647'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 432375ff-049d-46e7-a625-54d53d3b5dc2
+      X-Request-Id:
+      - 432375ff-049d-46e7-a625-54d53d3b5dc2
+      X-Global-Transaction-Id:
+      - 432375ff-049d-46e7-a625-54d53d3b5dc2
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '49'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '233'
+      Date:
+      - Fri, 08 Jan 2021 17:49:55 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.596122,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"The
+        night is darkening round me, The wild winds coldly blow ; But a tyrant spell
+        has bound me, And I cannot, cannot go.","tones":[]},{"sentence_id":1,"text":"The
+        giant trees are bending Their bare boughs weighed with snow ; The storm is
+        fast descending, And yet I cannot go.","tones":[{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"Clouds
+        beyond clouds above me, Wastes beyond wastes below ; But nothing drear can
+        move me : I will not, cannot go.","tones":[]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:55 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=On%20a%20sunny%20brae,%20alone%20I%20lay%20One%20summer%20afternoon%3B%20It%20was%20the%20marriage-time%20of%20May%20With%20her%20young%20lover,%20June.%20%20From%20her%20mother%27s%20heart,%20seemed%20loath%20to%20part%20That%20queen%20of%20bridal%20charms,%20But%20her%20father%20smiled%20on%20the%20fairest%20child%20He%20ever%20held%20in%20his%20arms.%20%20The%20trees%20did%20wave%20their%20plumy%20crests,%20The%20glad%20birds%20caroled%20clear%3B%20And%20I,%20of%20all%20the%20wedding%20guests,%20Was%20only%20sullen%20there!%20%20There%20was%20not%20one,%20but%20wished%20to%20shun%20My%20aspect%20void%20of%20cheer%3B%20The%20very%20grey%20rocks,%20looking%20on,%20Asked,%20%22What%20do%20you%20here?%22%20%20And%20I%20could%20utter%20no%20reply%3B%20In%20sooth,%20I%20did%20not%20know%20Why%20I%20had%20brought%20a%20clouded%20eye%20To%20greet%20the%20general%20glow.%20%20So,%20resting%20on%20a%20heathy%20bank,%20I%20took%20my%20heart%20to%20me%3B%20And%20we%20together%20sadly%20sank%20Into%20a%20reverie.%20%20We%20thought,%20%22When%20winter%20comes%20again,%20Where%20will%20these%20bright%20things%20be?%20All%20vanished,%20like%20a%20vision%20vain,%20An%20unreal%20mockery!%20%20The%20birds%20that%20now%20so%20blithely%20sing,%20Through%20deserts,%20frozen%20dry,%20Poor%20spectres%20of%20the%20perished%20spring,%20In%20famished%20troops,%20will%20fly.%20%20And%20why%20should%20we%20be%20glad%20at%20all?%20The%20leaf%20is%20hardly%20green,%20Before%20a%20token%20of%20its%20fall%20Is%20on%20the%20surface%20seen!%22%20%20Now,%20whether%20it%20were%20really%20so,%20I%20never%20could%20be%20sure%3B%20But%20as%20in%20fit%20of%20peevish%20woe,%20I%20stretched%20me%20on%20the%20moor.%20%20A%20thousand%20thousand%20gleaming%20fires%20Seemed%20kindling%20in%20the%20air%3B%20A%20thousand%20thousand%20silvery%20lyres%20Resounded%20far%20and%20near:%20%20Methought,%20the%20very%20breath%20I%20breathed%20Was%20full%20of%20sparks%20divine,%20And%20all%20my%20heather-couch%20was%20wreathed%20By%20that%20celestial%20shine!%20%20And,%20while%20the%20wide%20earth%20echoing%20rung%20To%20their%20strange%20minstrelsy,%20The%20little%20glittering%20spirits%20sung,%20Or%20seemed%20to%20sing,%20to%20me.%20%20%22O%20mortal!%20mortal!%20let%20them%20die%3B%20Let%20time%20and%20tears%20destroy,%20That%20we%20may%20overflow%20the%20sky%20With%20universal%20joy!%20%20Let%20grief%20distract%20the%20sufferer%27s%20breast,%20And%20night%20obscure%20his%20way%3B%20They%20hasten%20him%20to%20endless%20rest,%20And%20everlasting%20day.%20%20To%20thee%20the%20world%20is%20like%20a%20tomb,%20A%20desert%27s%20naked%20shore%3B%20To%20us,%20in%20unimagined%20bloom,%20It%20brightens%20more%20and%20more!%20%20And%20could%20we%20lift%20the%20veil,%20and%20give%20One%20brief%20glimpse%20to%20thine%20eye,%20Thou%20wouldst%20rejoice%20for%20those%20that%20live,%20Because%20they%20live%20to%20die.%22%20%20The%20music%20ceased%3B%20the%20noonday%20dream,%20Like%20dream%20of%20night,%20withdrew%3B%20But%20Fancy,%20still,%20will%20sometimes%20deem%20Her%20fond%20creation%20true.&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '4809'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 0172b9be-9e00-4b71-abda-e506667ec2af
+      X-Request-Id:
+      - 0172b9be-9e00-4b71-abda-e506667ec2af
+      X-Global-Transaction-Id:
+      - 0172b9be-9e00-4b71-abda-e506667ec2af
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '54'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '723'
+      Date:
+      - Fri, 08 Jan 2021 17:49:56 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.667299,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.680159,"tone_id":"anger","tone_name":"Anger"},{"score":0.648453,"tone_id":"joy","tone_name":"Joy"},{"score":0.687694,"tone_id":"fear","tone_name":"Fear"}]},"sentences_tone":[{"sentence_id":0,"text":"On
+        a sunny brae, alone I lay One summer afternoon; It was the marriage-time of
+        May With her young lover, June.","tones":[{"score":0.645973,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":1,"text":"From
+        her mother''s heart, seemed loath to part That queen of bridal charms, But
+        her father smiled on the fairest child He ever held in his arms.","tones":[{"score":0.814461,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":2,"text":"The
+        trees did wave their plumy crests, The glad birds caroled clear; And I, of
+        all the wedding guests, Was only sullen there!","tones":[{"score":0.834763,"tone_id":"joy","tone_name":"Joy"},{"score":0.812632,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":3,"text":"There
+        was not one, but wished to shun My aspect void of cheer; The very grey rocks,
+        looking on, Asked, \"What do you here?\"","tones":[{"score":0.543112,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":4,"text":"And
+        I could utter no reply; In sooth, I did not know Why I had brought a clouded
+        eye To greet the general glow.","tones":[{"score":0.66474,"tone_id":"joy","tone_name":"Joy"},{"score":0.570071,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":5,"text":"So,
+        resting on a heathy bank, I took my heart to me; And we together sadly sank
+        Into a reverie.","tones":[{"score":0.869235,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":6,"text":"We
+        thought, \"When winter comes again, Where will these bright things be?","tones":[{"score":0.762475,"tone_id":"joy","tone_name":"Joy"},{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"All
+        vanished, like a vision vain, An unreal mockery!","tones":[]},{"sentence_id":8,"text":"The
+        birds that now so blithely sing, Through deserts, frozen dry, Poor spectres
+        of the perished spring, In famished troops, will fly.","tones":[{"score":0.664127,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":9,"text":"And
+        why should we be glad at all?","tones":[{"score":1.0,"tone_id":"joy","tone_name":"Joy"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":10,"text":"The
+        leaf is hardly green, Before a token of its fall Is on the surface seen!\"  Now,
+        whether it were really so, I never could be sure; But as in fit of peevish
+        woe, I stretched me on the moor.","tones":[{"score":0.650716,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":11,"text":"A
+        thousand thousand gleaming fires Seemed kindling in the air; A thousand thousand
+        silvery lyres Resounded far and near:  Methought, the very breath I breathed
+        Was full of sparks divine, And all my heather-couch was wreathed By that celestial
+        shine!","tones":[]},{"sentence_id":12,"text":"And, while the wide earth echoing
+        rung To their strange minstrelsy, The little glittering spirits sung, Or seemed
+        to sing, to me.","tones":[{"score":0.786991,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":13,"text":"\"O
+        mortal!","tones":[{"score":0.916667,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.931034,"tone_id":"anger","tone_name":"Anger"},{"score":0.931034,"tone_id":"fear","tone_name":"Fear"}]},{"sentence_id":14,"text":"mortal!","tones":[{"score":0.916667,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.931034,"tone_id":"anger","tone_name":"Anger"},{"score":0.931034,"tone_id":"fear","tone_name":"Fear"}]},{"sentence_id":15,"text":"let
+        them die; Let time and tears destroy, That we may overflow the sky With universal
+        joy!","tones":[{"score":0.762392,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.58393,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":16,"text":"Let
+        grief distract the sufferer''s breast, And night obscure his way; They hasten
+        him to endless rest, And everlasting day.","tones":[{"score":0.790847,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":17,"text":"To
+        thee the world is like a tomb, A desert''s naked shore; To us, in unimagined
+        bloom, It brightens more and more!","tones":[{"score":0.517116,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":18,"text":"And
+        could we lift the veil, and give One brief glimpse to thine eye, Thou wouldst
+        rejoice for those that live, Because they live to die.\"","tones":[]},{"sentence_id":19,"text":"The
+        music ceased; the noonday dream, Like dream of night, withdrew; But Fancy,
+        still, will sometimes deem Her fond creation true.","tones":[{"score":0.74927,"tone_id":"joy","tone_name":"Joy"},{"score":0.532616,"tone_id":"analytical","tone_name":"Analytical"}]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:56 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=Hope%20was%20but%20a%20timid%20friend%3B%20She%20sat%20without%20the%20grated%20den,%20Watching%20how%20my%20fate%20would%20tend,%20Even%20as%20selfish-hearted%20men.%20%20She%20was%20cruel%20in%20her%20fear%3B%20Through%20the%20bars,%20one%20dreary%20day,%20I%20looked%20out%20to%20see%20her%20there,%20And%20she%20turned%20her%20face%20away!%20%20Like%20a%20false%20guard,%20false%20watch%20keeping,%20Still,%20in%20strife,%20she%20whispered%20peace%3B%20She%20would%20sing%20while%20I%20was%20weeping%3B%20If%20I%20listened,%20she%20would%20cease.%20%20False%20she%20was,%20and%20unrelenting%3B%20When%20my%20last%20joys%20strewed%20the%20ground,%20Even%20Sorrow%20saw,%20repenting,%20Those%20sad%20relics%20scattered%20round%3B%20%20Hope,%20whose%20whisper%20would%20have%20given%20Balm%20to%20all%20my%20frenzied%20pain,%20Stretched%20her%20wings,%20and%20soared%20to%20heaven,%20Went,%20and%20ne%27er%20returned%20again!&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '1432'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - debd8102-ba76-42f8-9ccf-810ac00b33bf
+      X-Request-Id:
+      - debd8102-ba76-42f8-9ccf-810ac00b33bf
+      X-Global-Transaction-Id:
+      - debd8102-ba76-42f8-9ccf-810ac00b33bf
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '54'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '284'
+      Date:
+      - Fri, 08 Jan 2021 17:49:57 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.644074,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.815351,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.61896,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"Hope
+        was but a timid friend; She sat without the grated den, Watching how my fate
+        would tend, Even as selfish-hearted men.","tones":[{"score":0.863333,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":1,"text":"She
+        was cruel in her fear; Through the bars, one dreary day, I looked out to see
+        her there, And she turned her face away!","tones":[{"score":0.813597,"tone_id":"fear","tone_name":"Fear"},{"score":0.506763,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"Like
+        a false guard, false watch keeping, Still, in strife, she whispered peace;
+        She would sing while I was weeping; If I listened, she would cease.","tones":[{"score":0.534892,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.821913,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"False
+        she was, and unrelenting; When my last joys strewed the ground, Even Sorrow
+        saw, repenting, Those sad relics scattered round;  Hope, whose whisper would
+        have given Balm to all my frenzied pain, Stretched her wings, and soared to
+        heaven, Went, and ne''er returned again!","tones":[{"score":0.841212,"tone_id":"sadness","tone_name":"Sadness"}]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:57 GMT
+- request:
+    method: get
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/v3/tone?text=%27Tis%20moonlight,%20summer%20moonlight,%20All%20soft%20and%20still%20and%20fair%3B%20The%20solemn%20hour%20of%20midnight%20Breathes%20sweet%20thoughts%20everywhere,%20%20But%20most%20where%20trees%20are%20sending%20Their%20breezy%20boughs%20on%20high,%20Or%20stooping%20low%20are%20lending%20A%20shelter%20from%20the%20sky.%20%20And%20there%20in%20those%20wild%20bowers%20A%20lovely%20form%20is%20laid%3B%20Green%20grass%20and%20dew-steeped%20flowers%20Wave%20gently%20round%20her%20head.&version=2017-09-21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OlZQRFNZaGdxZGpFYmw4Q0hvaGkyTU1HLVZSU1BfcDdpSFlrOUNabGpwOFZT
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-12-07T06:02:02'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Content-Length:
+      - '638'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Dp-Watson-Tran-Id:
+      - 46be014d-4ad1-4b96-b511-a3c6cfd14f14
+      X-Request-Id:
+      - 46be014d-4ad1-4b96-b511-a3c6cfd14f14
+      X-Global-Transaction-Id:
+      - 46be014d-4ad1-4b96-b511-a3c6cfd14f14
+      Server:
+      - watson-gateway
+      X-Edgeconnect-Midmile-Rtt:
+      - '44'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '222'
+      Date:
+      - Fri, 08 Jan 2021 17:49:57 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.771,"tone_id":"joy","tone_name":"Joy"}]},"sentences_tone":[{"sentence_id":0,"text":"''Tis
+        moonlight, summer moonlight, All soft and still and fair; The solemn hour
+        of midnight Breathes sweet thoughts everywhere,  But most where trees are
+        sending Their breezy boughs on high, Or stooping low are lending A shelter
+        from the sky.","tones":[{"score":0.629529,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":1,"text":"And
+        there in those wild bowers A lovely form is laid; Green grass and dew-steeped
+        flowers Wave gently round her head.","tones":[{"score":0.793863,"tone_id":"joy","tone_name":"Joy"}]}]}'
+  recorded_at: Fri, 08 Jan 2021 17:49:57 GMT
+recorded_with: VCR 6.0.0
