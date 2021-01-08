@@ -6,7 +6,15 @@
       <p>Title: <%= poem.title %></p>
       <p>Author: <%= poem.author %></p>
       <p>Poem: <%= poem.poem %></p>
-      <p>Tone: <%= poem.tone %></p>
+      <p>Tones:
+        <ul>
+          <% poem.tones.each do |tone| %>
+          <li class="tone">
+            <%= tone %>
+          </li>
+          <% end %>
+        </ul>
+      </p>
     </li>
   <% end %>
 </ol>
