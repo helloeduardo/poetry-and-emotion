@@ -10,12 +10,12 @@ RSpec.describe "Search Index Page" do
 
     expect(current_path).to eq("/search")
     expect(page).to have_css('.poem', count: 10)
-
+save_and_open_page
     within(first('.poem')) do
-        expect(page).to have_content("Title: xxxxx")
-        expect(page).to have_content("Author: xxxxx")
-        expect(page).to have_content("Poem: xxxxx")
-        expect(page).to have_content("Tone: xxxxx")
+        expect(page).to have_content("Title: Not at Home to Callers")
+        expect(page).to have_content("Author: Emily Dickinson")
+        expect(page).to have_content("Poem: Not at Home to Callers Says the Naked Tree -- Bonnet due in April -- Wishing you Good Day --")
+        expect(page).to have_content("Tone:")
       end
   end
 end
