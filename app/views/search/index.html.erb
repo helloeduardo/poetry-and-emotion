@@ -1,0 +1,12 @@
+<h1>Poem Results</h1>
+
+<ol>
+  <% @poems.each do |poem| %>
+    <li class="poem">
+      <p>Title: <%= poem.title %></p>
+      <p>Author: <%= poem.author %></p>
+      <p>Poem: <%= poem.poem %></p>
+      <p>Tone: <%= poem.tone %></p>
+    </li>
+  <% end %>
+</ol>
